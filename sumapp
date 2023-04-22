@@ -1,0 +1,5 @@
+# python problem 1
+n = int(input('ingrese n: '))
+m = int(input('ingrese m: '))
+s = n + m
+print(f'la suma de {n} + {m} es {s}')
