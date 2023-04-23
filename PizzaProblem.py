@@ -1,13 +1,6 @@
-# Introducción a la programación.
-# ATDF102.202305.2051.TR.AV
-# Autores:
-# Alvaro Osorio (RUT: 18.242.152-9)
-# Hans Velazquez (RUT: 19.844.388-3) 
-# Diego Gallegos (RUT: 18.144.005-8)
-
-# Descripción: Programa que es capaz de tomar pedidos del restorán Pizzarella.
+# Description: This program is able to take orders for the Pizzarlla restaurant.
  
-# Entrada de datos:
+# Data entry:
 # Primero se le enviará un mensaje de bienvenida a cada cliente que llega:
 print("Bienvenido a pizzarella")
 total = 0 # Variable usada para calcular el total de la cuenta
@@ -61,13 +54,4 @@ else:
         print(f'El total es $ {descuento}')
 # De no cumplirse la condición, no hay descuento.        
     else:
-        print(f'El total es $ {total}')  
-
-
-
-
-
-
-
-    
-        
+        print(f'El total es $ {total}')       
